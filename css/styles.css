@@ -338,21 +338,29 @@
     display: flex;
     justify-content: center;
     gap: 24px;
-    width: 40px;
-    height: 40px;
+
  }
  .gellery-label-stils{
-    width: 100%;
-    height: 100%;
+     width: 40px;
+     height: 40px;
+ }
+ .gellery-label-brend{
+    width:100%;
+    height:100%;
     background-color:#4d5ae5;
     border-radius:50%;
     display: flex;
     align-items: center;
     justify-content: center;
  }
- .gellery-label-stils:hover,
- .gellery-label-stils:focus {
+ .gellery-label-brend:hover,
+ .gellery-label-brend:focus {
     background-color: #404bbf;
+ }
+ .gellery-label-sprites{
+    width:16;
+    height:16;
+    fill:#f4f4fd
  }
 
 
