@@ -343,17 +343,17 @@ color: #404bbf;
     align-items: center;
     justify-content: center;
  }
- .gellery-label-brend:hover,
+ 
  .gellery-label-brend:focus,
  .gellery-label-brend:active {
     background-color: #404bbf;
  }
+ /*.gellery-label-brend:hover*/
 
  .gellery-label-sprites{
     fill:#f4f4fd;
     background-repeat: no-repeat;
     background-position: center center;
-   
  }
 
 
