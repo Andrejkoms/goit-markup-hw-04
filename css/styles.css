@@ -302,6 +302,7 @@
      box-shadow:0px 1px 6px rgba(46, 47, 66, 0.08),
      0px 1px 1px rgba(46, 47, 66, 0.16),
      0px 2px 1px rgba(46, 47, 66, 0.08);
+    transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
  }
 
 
@@ -337,7 +338,7 @@
  .gellery-label-stils{
     width: 40px;
     height: 40px;
-    transition:background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  
  }
  .gellery-label-brend{
     width:100%;
@@ -347,18 +348,22 @@
     display: flex;
     align-items: center;
     justify-content: center;
+  
    
    
  }
- .gellery-label-brend:hover,
- .gellery-label-brend:focus {
+ .gellery-label-brend:hover {
     background-color: #404bbf;
  }
+
+ .gellery-label-sprites:focus{
+    background-color: #404bbf;
+ }
+
  .gellery-label-sprites{
     fill:#f4f4fd;
-    background-image: url()
-        background-repeat: no-repeat;
-        background-position: center center;
+    background-repeat: no-repeat;
+    background-position: center center;
    
  }
 
@@ -410,7 +415,7 @@
 
  .portfolio-item {
      width: calc((100% - 48px) / 3);
-     
+     transition: box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
      overflow: hidden;
  }
  .portfolio-item-foto {
