@@ -215,8 +215,11 @@ color: #404bbf;
  .hero-bt:hover,
  .hero-bt:focus {
      background-color: #404BBF;
-     transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
  }
+
+ .hero-bt{
+     transition:background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+    }
 
  /*---FEATURES---*/
  .features {
@@ -234,17 +237,11 @@ color: #404bbf;
     margin-bottom: 8px;
 
  }
- .features-label-icon {
-
- }
- 
-
  .features-list {
      background-color: #FFFFFF;
      text-align: center;
      display: flex;
      gap: 24px;
-
  }
 
  .features-item {
@@ -345,15 +342,10 @@ color: #404bbf;
     display: flex;
     align-items: center;
     justify-content: center;
-  
-   
-   
  }
- .gellery-label-brend:hover {
-    background-color: #404bbf;
- }
-
- .gellery-label-sprites:focus{
+ .gellery-label-brend:hover,
+ .gellery-label-brend:focus,
+ .gellery-label-brend:active {
     background-color: #404bbf;
  }
 
