@@ -349,12 +349,11 @@ color: #404bbf;
     justify-content: center;
     transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
  }
- 
+ .gellery-label-brend:active,
  .gellery-label-brend:focus,
  .gellery-label-brend:hover {
     background-color: #404bbf;
  }
- 
 
  .gellery-label-sprites{
     fill:#f4f4fd;
