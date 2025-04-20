@@ -468,9 +468,9 @@ color: #404bbf;
   
  }
 
-.footer-container {
+ /*.footer-container {
      margin-right: 120px;
-}
+}*/
 
  .footer-logo {
      font-family: "Raleway", sans-serif;
@@ -486,8 +486,8 @@ color: #404bbf;
 
  .footer-wrapper {
     display: flex;
-     flex-direction: column;
-   
+    flex-direction: column;
+    margin-right: 120px;
  }
  .footer-wrapper-text {
     font-weight: 500;
